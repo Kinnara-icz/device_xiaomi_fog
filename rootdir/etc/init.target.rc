@@ -169,9 +169,6 @@ on boot
     start mi_thermald
     start vendor.sensors
 
-    # Load WLAN driver
-    insmod /vendor/lib/modules/qca_cld3_wlan.ko
-
     # ADD VIB chmod
     chmod 0777 /sys/class/leds/vibrator/state
     chmod 0777 /sys/class/leds/vibrator/duration
