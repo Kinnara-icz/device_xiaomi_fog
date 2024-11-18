@@ -8,3 +8,5 @@ dontaudit system_app {
   system_suspend_control_service
   tracingproxy_service
 }:service_manager find;
+
+get_prop(system_app, settingslib_prop)
