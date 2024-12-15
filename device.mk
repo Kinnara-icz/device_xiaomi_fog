@@ -389,7 +389,7 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
-# Rootdir
+# Init
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
@@ -400,10 +400,13 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom_ramdisk \
     fstab.zram \
-    init.qcom.power.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
+    init.xiaomi.rc \
+    init.xiaomi.fingerprint.rc \
+    init.fog.perf.rc \
+    init.fog.rc \
     init.target.rc \
     ueventd.qcom.rc
 

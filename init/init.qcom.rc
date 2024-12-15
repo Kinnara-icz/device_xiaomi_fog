@@ -25,9 +25,10 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-import /vendor/etc/init/hw/init.qcom.usb.rc
-import /vendor/etc/init/hw/init.qcom.power.rc
-import /vendor/etc/init/hw/init.target.rc
+import init/hw/init.qcom.usb.rc
+import init/hw/init.xiaomi.rc
+import init/hw/init.xiaomi.fingerprint.rc
+import init/hw/init.target.rc
 
 on early-init
     mount debugfs debugfs /sys/kernel/debug
